@@ -1,6 +1,6 @@
 ---
 - become: false
-  delegate_to: localhost
+  # delegate_to: localhost
   run_once: true
   block:
     - name: Create local grafana dashboard directory
